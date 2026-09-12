@@ -1,10 +1,8 @@
 # Project 1: Customer Feedback Analyzer (Gen AI)
 
-This is your first full project. It puts together almost everything from the course into one real, useful app.
-
 **The problem:** A restaurant owner has dozens of customer reviews and no time to read them all. They want a simple tool: paste the reviews, click a button, and instantly see how customers feel and what they keep complaining about.
 
-**What you will build:**
+**What is build:**
 - A **backend** (FastAPI) that uses Gemini to analyze one review.
 - A **frontend** (Streamlit dashboard) that the owner actually clicks on. It sends every review to your backend and shows a summary.
 
@@ -12,19 +10,6 @@ The fun part: the frontend calls your *own* backend the same way you called the 
 
 ---
 
-## What each lesson gave you
-
-| From lesson | Used here for |
-|---|---|
-| FastAPI + uv (10) | The backend service |
-| Pydantic + structured output (3, 7) | Clean input/output: `label`, `score`, `theme` |
-| Loops, lists, dicts (1) | Going through many reviews, collecting results |
-| SQLite database (12) | Saving every analyzed review to a `feedback.db` table |
-| Error handling (5) | One bad review must not crash the whole batch |
-| Calling APIs (9) | The frontend calling the backend |
-| Streamlit (4, 6) | The dashboard |
-
----
 
 ## Step 1: Set up the project
 
